@@ -1,0 +1,339 @@
+[index.html](https://github.com/user-attachments/files/22098081/index.html)
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Page Title</title>
+
+</head>
+
+
+
+<body>
+
+<nav>
+
+<a href="index.html">Homepage</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="hobbies.html">Monique's Hobbies</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="All_about_Monique.html">Thats so Monique</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</nav>
+
+<!--Your HTML tags will start here-->
+
+ <h1>This is about Monique</h1>
+
+ <p>This is a paragraph.</p>
+
+<!--Your HTML tags will end here-->
+
+</body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Girly Fun Page</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+    
+    body {
+      background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+      color: #800080; /* purple */
+      font-family: 'Comic Neue', cursive, 'Comic Sans MS', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.2em;
+      text-shadow: 2px 2px 5px #ff69b4;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin: 30px 0 15px;
+      text-shadow: 1px 1px 3px #ff1493;
+    }
+
+    table {
+      margin: 0 auto;
+      border-collapse: separate;
+      border-spacing: 15px;
+      border-radius: 20px;
+      background-color: #ffe4f1;
+      box-shadow: 0 6px 12px rgba(255, 105, 180, 0.4);
+      width: 80%;
+      max-width: 600px;
+    }
+
+    th, td {
+      border: 3px solid #d6336c;
+      padding: 20px;
+      border-radius: 15px;
+      background: #fff0f6;
+      color: #800080;
+      font-size: 1.1rem;
+      font-weight: 600;
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+
+    th {
+      background: #ff69b4;
+      color: white;
+      font-weight: 700;
+      text-shadow: 1px 1px 2px #800080;
+    }
+
+    th:hover, td:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(255, 20, 147, 0.6);
+      cursor: pointer;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      font-size: 1.2rem;
+      color: #800080;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 10px 25px;
+      border: 2px solid #800080;
+      border-radius: 25px;
+      background: #ffb6c1;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    a:hover {
+      background-color: #800080;
+      color: #fff0f6;
+    }
+
+    iframe {
+      margin-top: 25px;
+      border-radius: 15px;
+      border: 5px solid #d6336c;
+      box-shadow: 0 6px 12px rgba(255, 105, 180, 0.6);
+      max-width: 560px;
+      width: 100%;
+      height: 315px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Life Table 💖</h1>
+
+  <table>
+    <tr>
+      <th>Where I was born</th>
+      <th>Where I grew up</th>
+    </tr>
+    <tr>
+      <td>City A</td>
+      <td>City B</td>
+    </tr>
+    <tr>
+      <th>Military</th>
+      <th>Current situation</th>
+    </tr>
+    <tr>
+      <td>No</td>
+      <td>Studying Web Dev</td>
+    </tr>
+  </table>
+
+  <h2>Learn about the 42A Human Resources Specialist 💜</h2>
+
+  <iframe src="https://www.youtube.com/embed/MDADS9L14tk" 
+    title="42A Human Resources Specialist" frameborder="0" allowfullscreen></iframe>
+
+  <a href="form.html">Go to Form Page ✨</a>
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fun Girly Form</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+    body {
+      background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+      color: #800080; /* purple */
+      font-family: 'Comic Neue', cursive, 'Comic Sans MS', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.4em;
+      text-shadow: 2px 2px 5px #ff69b4;
+    }
+
+    form {
+      background-color: #ffe4f1; /* light pink form background */
+      padding: 30px;
+      border-radius: 25px;
+      width: 80%;
+      max-width: 500px;
+      box-shadow: 0 8px 20px rgba(255, 105, 180, 0.4);
+      text-align: left;
+      color: #800080;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    label {
+      display: block;
+      margin: 15px 0 6px;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 12px;
+      border: 2px solid #d6336c;
+      font-size: 1rem;
+      font-family: 'Comic Neue', cursive, 'Comic Sans MS', sans-serif;
+      background-color: #fff0f6;
+      color: #800080;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      padding: 12px;
+      border-radius: 15px;
+      border: 2px solid #d6336c;
+      background-color: #ffd6e8; /* pink comment box */
+      resize: vertical;
+      font-family: 'Comic Neue', cursive, 'Comic Sans MS', sans-serif;
+      font-size: 1rem;
+      color: #800080;
+    }
+
+    fieldset {
+      border: 2px solid #d6336c;
+      border-radius: 15px;
+      padding: 15px;
+      margin-top: 20px;
+      color: #800080;
+      font-weight: 700;
+    }
+
+    legend {
+      font-size: 1.1rem;
+      padding: 0 8px;
+      font-weight: 800;
+      color: #6a0dad;
+    }
+
+    input[type="radio"] {
+      margin-right: 8px;
+      cursor: pointer;
+    }
+
+    .buttons {
+      margin-top: 25px;
+      text-align: center;
+    }
+
+    input[type="submit"], input[type="reset"] {
+      background-color: #d6336c; /* darker pink */
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      margin: 0 15px;
+      border-radius: 25px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: 'Comic Neue', cursive, 'Comic Sans MS', sans-serif;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover, input[type="reset"]:hover {
+      background-color: #a0264b;
+    }
+
+    a {
+      margin-top: 30px;
+      font-size: 1.2rem;
+      color: #800080;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tell Me About You 💕</h1>
+
+  <form action="#" method="post">
+
+    <label for="favorite-color">Choose your favorite color:</label>
+    <select name="favorite-color" id="favorite-color" required>
+      <option value="" disabled selected>Select one</option>
+      <option value="pink">Pink</option>
+      <option value="purple">Purple</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+    </select>
+
+    <fieldset>
+      <legend>Do you like web development?</legend>
+      <input type="radio" id="yes" name="web-dev" value="yes" required />
+      <label for="yes">Yes</label><br/>
+      <input type="radio" id="no" name="web-dev" value="no" />
+      <label for="no">No</label>
+    </fieldset>
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" placeholder="Write your thoughts here..."></textarea>
+
+    <div class="buttons">
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </div>
+
+  </form>
+
+  <a href="index.html">Back to Table & Video Page 💜</a>
+
+</body>
+</html>
+ 
+</body>
+</html>
+
+
+</html>
